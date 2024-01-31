@@ -1,0 +1,222 @@
+/*HEADER*/
+header {
+   background-color: #59D2FE;
+   width: 100%;
+   justify-content: space-around;
+}
+.titulo-de-pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+header h1 {
+    font-size: 75px;
+    color: #A63D40;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header img {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header a {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+    text-decoration: none;   
+}
+header a:hover {
+    opacity: .3;
+}
+header ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+}
+/*HEADER*/
+
+/*RESUMEN*/
+.presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.presentacion p {
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    color: #050401;
+    font-family: 'Roboto', sans-serif;
+}
+/*presentacion*/
+
+/*TEXTOS*/
+.caja p {
+    font-size: 35px;
+    text-align: center;
+    color: #3D3522;
+    padding: 1px;
+}
+.caja img {
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.caja a {
+    font-size: 55px;
+    text-decoration: none;
+    color: #3D3522;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+li {
+    font-size: 23px;
+    text-align: justify;
+    color: #2E282A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.block-one {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block-one h2 {
+    background-color: yellowgreen;
+    font-size: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.block-one img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block-two {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block-two h2 {
+    background-color: rgb(192, 218, 139);
+    font-size: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.block-two img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.orange-box p {
+    color: beige;
+}
+.orange-box li {
+    color:cornsilk;
+}
+.block-three {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block-three h2 {
+    background-color: rgb(238, 255, 204);
+    font-size: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.block-three img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.brown-box p {
+    color: #fefeef;
+}
+.brown-box li {
+    color:rgb(48, 243, 146);
+}
+/*TEXTOS*/
+/*CONTENIDO*/
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A63D40;
+    padding: 5px;
+}
+/*CONTENIDO*/
+/*CONTENEDOR*/
+.contenedor {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}   
+
+.caja {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+.green-box {
+    background-color: #43B929;
+}
+.orange-box {
+    background-color: #A63D40;
+}
+.brown-box {
+    background-color: brown;
+}
+/*CONTENEDOR*/
+
+/*FOOTER*/
+footer {
+    background-color: #1d1501;
+}
+footer p {
+    font-size: 20px;
+    color: #f5f4f4;
+    text-align: center;
+    
+} 
+.logomd img {
+    width: 70%;
+    height: 70%;
+}
+.logomd {
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+   }
+   button {
+    width: 150px;
+    height: 25px;
+    background-color: blue;
+    display: flex;
+}
